@@ -1,5 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 h3 {
   text-align: center;
+}
+section.body {
+  width: 90%;
+  margin: 0px auto;
+}
+nav {
+  margin-bottom: 10px;
 }
 .card {
   border-style: solid;
@@ -13,10 +24,14 @@ input[type="text"] {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 10px 0px;
 }
 th,
 td {
   height: 30px;
+}
+tr > td {
+  padding: 8px;
 }
 td.id {
   width: 120px;
@@ -29,4 +44,7 @@ td.commany {
 td.price {
   text-align: right;
   width: 100px;
+}
+footer {
+  margin-top: 20px;
 }
