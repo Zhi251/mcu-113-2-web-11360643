@@ -5,7 +5,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
   selector: 'app-root',
   standalone: true,
   imports: [ProductCardComponent],
-  template: `<app-product-card></app-product-card>`, // 直接嵌入 component
+  template: `<app-product-card></app-product-card>`,
 })
 export class AppComponent {
   title = 'shopping-cart';
