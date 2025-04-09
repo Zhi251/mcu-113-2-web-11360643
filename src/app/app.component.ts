@@ -3,9 +3,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   imports: [ProductCardComponent],
-  template: `<app-product-card></app-product-card>`,
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   productName = '書籍 A';
